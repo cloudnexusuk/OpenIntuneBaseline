@@ -1,0 +1,37 @@
+﻿{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies/$entity",
+    "createdDateTime": "2025-02-14T13:29:54.6262738Z",
+    "creationSource": null,
+    "description": "",
+    "lastModifiedDateTime": "2025-02-14T13:29:54.6262738Z",
+    "name": "Win - OIB - Windows User Experience - U - Copilot - v3.1",
+    "platforms": "windows10",
+    "priorityMetaData": null,
+    "roleScopeTagIds": [
+        "0"
+    ],
+    "settingCount": 1,
+    "technologies": "mdm",
+    "id": "f5356a04-2ebc-4975-86de-178b59726cdd",
+    "templateReference": {
+        "templateId": "",
+        "templateFamily": "none",
+        "templateDisplayName": null,
+        "templateDisplayVersion": null
+    },
+    "settings": [
+        {
+            "id": "0",
+            "settingInstance": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                    "settingValueTemplateReference": null,
+                    "value": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_0",
+                    "children": []
+                }
+            }
+        }
+    ]
+}
