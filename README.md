@@ -1,11 +1,16 @@
 # OpenIntuneBaseline
 
 <p align="center">
-  <a href="https://twitter.com/SkipToEndpoint">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/SkipToEndpoint?label=Follow%20%40SkipToEndpoint&logo=Twitter&style=flat-square" target="_blank" />
+  <a href="https://x.com/SkipToEndpoint">
+    <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/SkipToEndpoint?style=social&label=Follow%20on%20X" target="_blank" />
   </a>
+   | 
+  <a href="https://bsky.app/profile/skiptotheendpoint.co.uk">
+    <img alt="BlueSky URL" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dskiptotheendpoint.co.uk&query=%24.followersCount&style=social&logo=bluesky&label=Follow%20on%20BSky" target="_blank" />
+  </a>
+   | 
   <a href="https://skiptotheendpoint.co.uk">
-    <img alt="Twitter Follow" src="https://img.shields.io/badge/Read%20my%20blog-grey?style=flat-square&logo=ghost" target="_blank" />
+    <img alt="Blog" src="https://img.shields.io/badge/Read%20My%20Blog-grey?style=flat-square&logo=ghost" target="_blank" />
   </a>
 </p>
 <p align="center">
@@ -26,8 +31,16 @@
 
 ---
 
-## Project History
-The OpenIntuneBaseline (OIB) project was started as a way to provide a "known good" baseline security posture for Windows devices managed by Microsoft Intune.
+## About the Author
+James is a Technical Architect and Microsoft MVP in both Intune and Windows, and has been working in the IT industry for over 20 years, with the last 8 being primarily within Intune. He is also a recognised contributor to the CIS Windows Benchmarks.
+He has a wealth of experience across the Microsoft 365 stack, with a focus on security and compliance, and is a regular attendee and speaker at community events such as [MMS](https://mmsmoa.com/) and [Workplace Ninja Summit](https://www.wpninjas.ch/events/), and is passionate about sharing knowledge and helping others.
+
+---
+
+## About the Project
+
+### Project History
+The OpenIntuneBaseline (OIB) project was started in early 2021 as a way to provide a "known good" baseline security posture for Windows devices managed by Microsoft Intune, after being disappointed with the admin and user experience of other available baselines.
 
 ### Security Framework Adherence
 When creating the initial Windows baseline, substantial data analysis was carried out over well-known security frameworks, such as:
@@ -80,7 +93,7 @@ Each OS will have its own folder, with OS-specific files (readme, changelog, bas
 The current OIB versions are:
 | OS | Current Release | Change Log | Wiki Page |
 |:---:|:---:|:---:|:---:|
-| [Windows](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/tree/main/WINDOWS) | [v3.3](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/releases/tag/windows-v3.3) | [Link](/WINDOWS/CHANGELOG.md) | [Link](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/wiki/win-readme) |
+| [Windows](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/tree/main/WINDOWS) | [v3.4](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/releases/tag/windows-v3.4) | [Link](/WINDOWS/CHANGELOG.md) | [Link](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/wiki/win-readme) |
 | [Windows 365](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/tree/main/WINDOWS365) | [v1.0](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/releases/tag/win365-v1.0) | [Link](/WINDOWS365/CHANGELOG.md) | [Link](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/wiki/win365-readme) |
 | [MacOS](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/tree/main/MACOS) | [v1.0](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/releases/tag/macos-v1.0) | [Link](/MACOS/CHANGELOG.md) | [Link](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/wiki/macos-readme) |
 
