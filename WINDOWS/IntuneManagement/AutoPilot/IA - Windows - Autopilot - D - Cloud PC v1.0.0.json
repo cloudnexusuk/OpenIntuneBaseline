@@ -12,7 +12,6 @@
   "preprovisioningAllowed": true,
   "managementServiceAppId": null,
   "outOfBoxExperienceSettings": {
-    "@odata.type": "#microsoft.graph.outOfBoxExperienceSetting",
     "privacySettingsHidden": true,
     "eulaHidden": true,
     "userType": "standard",
@@ -21,7 +20,6 @@
     "escapeLinkHidden": true
   },
   "enrollmentStatusScreenSettings": {
-    "@odata.type": "microsoft.graph.windowsEnrollmentStatusScreenSettings",
     "hideInstallationProgress": true,
     "allowDeviceUseBeforeProfileAndAppInstallComplete": true,
     "blockDeviceSetupRetryByUser": true,
