@@ -10,22 +10,5 @@
   "deviceType": "windowsPc",
   "enableWhiteGlove": true,
   "preprovisioningAllowed": true,
-  "managementServiceAppId": null,
-  "outOfBoxExperienceSettings": {
-    "privacySettingsHidden": true,
-    "eulaHidden": true,
-    "userType":" standard",
-    "deviceUsageType": "singleUser",
-    "keyboardSelectionPageSkipped": true,
-    "escapeLinkHidden": true
-  },
-  "enrollmentStatusScreenSettings": {
-    "hideInstallationProgress": true,
-    "allowDeviceUseBeforeProfileAndAppInstallComplete": true,
-    "blockDeviceSetupRetryByUser": true,
-    "allowLogCollectionOnInstallFailure": true,
-    "customErrorMessage": "Timeout of 60 minutes occurred, please contact support",
-    "installProgressTimeoutInMinutes": 60,
-    "allowDeviceUseOnInstallFailure": true
+  "managementServiceAppId": null
   }
-}
