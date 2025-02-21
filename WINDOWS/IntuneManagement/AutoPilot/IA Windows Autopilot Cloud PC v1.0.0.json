@@ -1,0 +1,38 @@
+{
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "displayName": "IA Windows Autopilot Cloud PC v1.0.0",
+  "description": "",
+  "language": "os-default",
+  "locale": "os-default",
+  "enrollmentStatusScreenSettings": null,
+  "extractHardwareHash": false,
+  "hardwareHashExtractionEnabled": false,
+  "deviceNameTemplate": "%SERIAL%",
+  "deviceType@odata.type": "#microsoft.graph.windowsAutopilotDeviceType",
+  "deviceType": "windowsPc",
+  "enableWhiteGlove": true,
+  "preprovisioningAllowed": true,
+  "managementServiceAppId": null,
+  "outOfBoxExperienceSettings": {
+    "@odata.type": "#microsoft.graph.outOfBoxExperienceSettings",
+    "hidePrivacySettings": true,
+    "hideEULA": true,
+    "userType@odata.type": "#microsoft.graph.windowsUserType",
+    "userType": "standard",
+    "deviceUsageType@odata.type": "#microsoft.graph.windowsDeviceUsageType",
+    "deviceUsageType": "singleUser",
+    "skipKeyboardSelectionPage": false,
+    "hideEscapeLink": true
+  },
+  "outOfBoxExperienceSetting": {
+    "@odata.type": "#microsoft.graph.outOfBoxExperienceSetting",
+    "privacySettingsHidden": true,
+    "eulaHidden": true,
+    "userType@odata.type": "#microsoft.graph.windowsUserType",
+    "userType": "standard",
+    "deviceUsageType@odata.type": "#microsoft.graph.windowsDeviceUsageType",
+    "deviceUsageType": "singleUser",
+    "keyboardSelectionPageSkipped": false,
+    "escapeLinkHidden": true
+  }
+}
