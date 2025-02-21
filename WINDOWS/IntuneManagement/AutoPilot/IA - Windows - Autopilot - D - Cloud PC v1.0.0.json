@@ -22,15 +22,6 @@
     "skipKeyboardSelectionPage": false,
     "hideEscapeLink": true
   },
-  "outOfBoxExperienceSetting": {
-    "@odata.type": "microsoft.graph.outOfBoxExperienceSettings",
-    "privacySettingsHidden": true,
-    "eulaHidden": true,
-    "userType": "standard",
-    "deviceUsageType": "singleUser",
-    "keyboardSelectionPageSkipped": false,
-    "escapeLinkHidden": true
-  },
   "enrollmentStatusScreenSettings": {
     "@odata.type": "microsoft.graph.windowsEnrollmentStatusScreenSettings",
     "hideInstallationProgress": true,
