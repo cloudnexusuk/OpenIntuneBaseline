@@ -4,21 +4,13 @@
   "description": "Windows Autopilot deployment profile for Cloud PCs",
   "language": "os-default",
   "locale": "os-default",
-   "extractHardwareHash": false,
+  "extractHardwareHash": false,
   "hardwareHashExtractionEnabled": false,
   "deviceNameTemplate": "%SERIAL%",
   "deviceType": "windowsPc",
   "enableWhiteGlove": true,
   "preprovisioningAllowed": true,
   "managementServiceAppId": null,
-  "outOfBoxExperienceSettings": {
-    "privacySettingsHidden": true,
-    "eulaHidden": true,
-    "userType": "standard",
-    "deviceUsageType": "sinleUser",
-    "keyboardSelectionPageSkipped": true,
-    "escapeLinkHidden": true
-  },
   "enrollmentStatusScreenSettings": {
     "hideInstallationProgress": true,
     "allowDeviceUseBeforeProfileAndAppInstallComplete": true,
