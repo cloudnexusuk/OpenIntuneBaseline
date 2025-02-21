@@ -14,9 +14,6 @@
   "deviceType": "windowsPc",
   "enableWhiteGlove": true,
   "preprovisioningAllowed": true,
-  "roleScopeTagIds": [
-    "0"
-  ],
   "managementServiceAppId": null,
   "outOfBoxExperienceSettings": {
     "@odata.type": "microsoft.graph.outOfBoxExperienceSettings",
