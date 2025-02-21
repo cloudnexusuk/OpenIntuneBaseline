@@ -1,24 +1,20 @@
 {
   "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "id": "18de7046-4762-45cd-9ad5-42804f7cb6a3",
   "displayName": "IA - Windows - Autopilot - D - Cloud PC v1.0.0",
-  "description": "",
+  "description": "Windows Autopilot deployment profile for Cloud PCs",
   "language": "os-default",
   "locale": "os-default",
   "createdDateTime": "2025-02-17T16:55:24.525665Z",
   "lastModifiedDateTime": "2025-02-17T16:55:24.525665Z",
-  "enrollmentStatusScreenSettings": null,
-  "extractHardwareHash": false,
+   "extractHardwareHash": false,
   "hardwareHashExtractionEnabled": false,
   "deviceNameTemplate": "%SERIAL%",
   "deviceType": "windowsPc",
   "enableWhiteGlove": true,
   "preprovisioningAllowed": true,
-  "roleScopeTagIds": [
-    "0"
-  ],
   "managementServiceAppId": null,
   "outOfBoxExperienceSettings": {
+    "@odata.type": "microsoft.graph.outOfBoxExperienceSetting",
     "hidePrivacySettings": true,
     "hideEULA": true,
     "userType": "standard",
@@ -27,11 +23,22 @@
     "hideEscapeLink": true
   },
   "outOfBoxExperienceSetting": {
+    "@odata.type": "microsoft.graph.outOfBoxExperienceSettings",
     "privacySettingsHidden": true,
     "eulaHidden": true,
     "userType": "standard",
     "deviceUsageType": "singleUser",
     "keyboardSelectionPageSkipped": false,
     "escapeLinkHidden": true
+  },
+  "enrollmentStatusScreenSettings": {
+    "@odata.type": "microsoft.graph.windowsEnrollmentStatusScreenSettings",
+    "hideInstallationProgress": true,
+    "allowDeviceUseBeforeProfileAndAppInstallComplete": true,
+    "blockDeviceSetupRetryByUser": true,
+    "allowLogCollectionOnInstallFailure": true,
+    "customErrorMessage": "Timeout of 60 minutes occurred, please contact support",
+    "installProgressTimeoutInMinutes": 60,
+    "allowDeviceUseOnInstallFailure": true
   }
 }
